@@ -1,0 +1,118 @@
+@keyframes toastify-bounceInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 200px, 0);
+    } to { 
+        transform: translate3d(0, 0, 0); 
+    }
+}
+
+@keyframes toastify-bounceOutDown {
+    from { 
+        transform: translate3d(0, 0, 0); 
+    } to {
+        opacity: 0;
+        transform: translate3d(0, 200px, 0); 
+    }
+
+}
+
+.toastify-bounceInUp, .toast-enter--bottom-left { animation-name: toastify-bounceInUp; }
+
+.toastify-bounceOutDown, .toast-exit--bottom-left { animation-name: toastify-bounceOutDown; }
+
+.toastify-animated {
+    animation-duration: 0.75s;
+    animation-fill-mode: both; 
+}
+
+.toastify {
+    z-index: 999;
+    position: fixed;
+    padding: 4px;
+    width: 320px;
+    box-sizing: border-box;
+    color: #fff; 
+}
+
+.toastify--bottom-left {
+    bottom: $base-pm;
+    left: $base-pm; 
+}
+
+.toastify__close {
+    padding: 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    opacity: .7;
+    transition: .3s ease;
+}
+
+.toastify__close:hover, .toastify__close:focus { opacity: 1; }
+
+.toastify-content--default .toastify__close {
+    color: #000;
+    opacity: 0.3; 
+}
+
+.toastify-content--default .toastify__close:hover { opacity: 1; }
+
+.toastify-content {
+    position: relative;
+    min-height: 48px;
+    padding: $base-pm;
+    border-radius: $base-br;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+    background-color: #323232;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    max-height: 800px;
+    overflow: hidden;
+    font-family: sans-serif;
+    padding: $base-pm * 1.5;
+
+    &:not(:last-child) { margin-bottom: $base-pm; }
+}
+
+.toastify__body { 
+    margin: auto 0;
+    font-size: .9em;
+}
+
+.toastify__progress { display: none; }
+
+.toastify-dismiss {
+    background-color: rgba(255,255,255, .1);
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: .78em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color .2s;
+    color: #f1f1f1;
+
+    &:hover { background-color: rgba(255,255,255, .2); }
+}
+
+.toastify-content--default {
+    background: #323232;
+    color: #f1f1f1;
+}
+
+.toastify-content--error {
+    background: #F44336;
+    color: #f1f1f1;
+}
+
+.toastify-content--success {
+    background: #00C853;
+    color: #f1f1f1;
+}
+
+

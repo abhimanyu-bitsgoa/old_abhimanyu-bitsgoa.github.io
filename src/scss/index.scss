@@ -1,0 +1,20 @@
+/**
+ * Libraries, defaults and utils
+ */
+@import 'lib/lib';
+
+/**
+ * Standalone components
+ */
+@import 'components/components';
+
+/**
+ * App main views
+ */
+@import 'views/views';
+
+
+ /**
+ * Responsive media queries loaded the last to override
+ */
+@import 'components/responsive';

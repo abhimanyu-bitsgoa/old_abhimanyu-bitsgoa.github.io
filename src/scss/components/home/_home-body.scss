@@ -1,0 +1,33 @@
+@import 'home-button';
+
+&__icons {
+    a {
+        @for $i from 1 through 10 {
+            &:nth-child(#{$i}) {
+                @include transition_come-in(2 + $i);
+            }
+        }
+    }
+}
+
+&__social-icons {
+    flex: 1;
+    padding: $base-pm * 4;
+
+    &__icon {
+        @for $i from 1 through 10 {
+            &:nth-child(#{$i}) {
+                @include transition_come-in(4 + $i);
+            }
+        }
+
+        svg {
+            width: 28px;
+            transition: fill .2s;
+
+            &:not(:hover) { fill: #263238!important; }
+        }
+
+        &:not(:last-child) { margin-right: $base-pm * 2; }
+    }
+}

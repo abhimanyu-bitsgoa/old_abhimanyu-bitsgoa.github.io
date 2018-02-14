@@ -1,0 +1,18 @@
+&__work-filters {
+    height: 100%;
+    flex: .4;
+    background-color: #fff;
+    min-width: 200px;
+
+    p {
+        font-size: 1.2em;
+        height: 64px;
+        font-weight: 400;
+        padding: $base-pm * 4 $base-pm * 4 0 $base-pm * 4;
+
+    }
+
+    button { display: none; }
+
+    &__overlay { display: none; }
+}

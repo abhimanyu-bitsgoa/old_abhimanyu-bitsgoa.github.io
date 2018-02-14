@@ -1,0 +1,84 @@
+&__work-items {
+    flex: 2;
+    height: 100%;
+    flex-wrap: wrap;
+    padding: $base-pm * 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 130px;
+    overflow: auto;
+    transition: padding .3s;
+
+    &__item {
+        background-color: #fff;
+        max-width: 485px;
+        height: 110px;
+        border-radius: $base-br;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.14);
+        transition: all .3s;
+        margin: $base-pm 0;
+        justify-self: center;
+        animation: fadeIn;
+        animation-duration: .4s;
+        animation-delay: .1s;
+        animation-fill-mode: both;
+        opacity: 1;
+        width: 100%;
+
+        &:only-child {
+            max-width: none;
+        }
+
+        &__image {
+            max-height: 100%;
+            max-width: 100%;
+            flex: 2;
+            min-width: 100px;
+            align-self: center;
+            img {
+                padding: $base-pm;
+            }
+        }
+
+        &__data {
+            padding: $base-pm;
+            flex: 5;
+
+            h4 { font-weight: 400; }
+
+            p {
+                font-size: .8em;
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+
+            &__tags {
+                span {
+                    font-size: .7em;
+                    background-color: rgba(0,0,0,.05);
+                    border-radius: $base-br * 2;
+                    padding: $base-pm / 2.5 $base-pm / 1.5;
+
+                    &:not(:last-child) { margin-right: $base-pm; }
+                }
+            }
+        }
+
+        &__buttons {
+            border-left: 1px solid rgba(0,0,0,.1);
+            flex: 1;
+
+            a {
+                width: 100px;
+                flex: 1;
+                font-size: .8em;
+                transition: background-color .3s;
+
+                &:hover { background-color: rgba(0,0,0,.05); }
+            }
+        }
+    }
+}
