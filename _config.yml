@@ -5,20 +5,19 @@ title: Abimanyu's Site
 description: Jack's blog,use Jekyll and github pages.
 keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
 baseurl:
-url: http://www.jarrekk.com
-# url: http://127.0.0.1:4000
+url: https://abhimanyu-bitsgoa.github.io/
 img_path: /static/assets/img/blog
 
 # author
 author:
-  name: Jarrekk
-  first_name: Kun
-  last_name: Jia
+  name: Abhimanyu
+  first_name: Abhimanyu Singh
+  last_name: Shekhawat
   cv: http://cv.jarrekk.com
-  email: me@jarrekk.com
-  facebook_username: jiakunnj
-  github_username: jarrekk
-  linkedin_id: jarrekk
+  email: abhimanyu.bitsgoa@gmail.com
+  facebook_username: aronzx
+  github_username: abhimanyu-bitsgoa
+  linkedin_id: abhimanyubitsgoa
   avatar: /static/assets/img/landing/Jack.jpeg
   skill_icon1:
     - name: icon-python
@@ -26,7 +25,10 @@ author:
   skill_icon2:
     - name: icon-mongodb
     - name: icon-docker
-  desc: I am a Full Stack engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel.
+  desc: I believe in finding smart solutions to complex problems both individual and in teams.
+        Experienced (but not limited to) in OOP, Algorithms, Data Structures and Public Speaking.Not rigid with respect to choice of technology, relatively platform agnostic, and open to adopting the right technology for the task at hand.
+        An Open Source enthusiast and apart from that I enjoy weight training on weekdays and long cycling sessions on weekends.
+        I am always looking for opportunities that can help me hone my skill set so that I can contribute and give back to the society, in a better way.
 
 # comment
 disqus:
@@ -35,10 +37,10 @@ disqus:
 # analytics
 ## google analytics
 ga:
-  id: UA-93473370-1
+  id: 
 
 go:
-  id: GTM-NHMS8GD
+  id: 
 
 ## growingIO
 gio:
