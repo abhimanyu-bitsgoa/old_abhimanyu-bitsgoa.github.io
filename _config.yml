@@ -25,10 +25,7 @@ author:
   skill_icon2:
     - name: icon-mongodb
     - name: icon-docker
-  desc: I believe in finding smart solutions to complex problems both individual and in teams.
-        Experienced (but not limited to) in OOP, Algorithms, Data Structures and Public Speaking.Not rigid with respect to choice of technology, relatively platform agnostic, and open to adopting the right technology for the task at hand.
-        An Open Source enthusiast and apart from that I enjoy weight training on weekdays and long cycling sessions on weekends.
-        I am always looking for opportunities that can help me hone my skill set so that I can contribute and give back to the society, in a better way.
+  desc: My info here
 
 # comment
 disqus:
@@ -37,10 +34,10 @@ disqus:
 # analytics
 ## google analytics
 ga:
-  id: 
+  id: UA-93473370-1
 
 go:
-  id: 
+  id: GTM-NHMS8GD
 
 ## growingIO
 gio:
