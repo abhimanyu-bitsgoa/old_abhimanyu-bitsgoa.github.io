@@ -2,8 +2,8 @@
 
 # Website settings
 title: Abimanyu's Site
-description: Jack's blog,use Jekyll and github pages.
-keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
+description: Abhimanyu's blog,use Jekyll and github pages.
+keywords: Abhimanyu,Jalpc,blog,Jekyll,github,gh-pages
 baseurl:
 url: https://abhimanyu-bitsgoa.github.io/
 img_path: /static/assets/img/blog
@@ -11,8 +11,8 @@ img_path: /static/assets/img/blog
 # author
 author:
   name: Abhimanyu
-  first_name: Abhimanyu Singh
-  last_name: Shekhawat
+  first_name: Abhimanyu
+  last_name: Singh Shekhawat
   cv: http://cv.jarrekk.com
   email: abhimanyu.bitsgoa@gmail.com
   facebook_username: aronzx
