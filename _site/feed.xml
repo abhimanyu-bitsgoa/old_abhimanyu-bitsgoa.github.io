@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I can, therefore I am.</title>
+    <description>Abhimanyu's blog,use Jekyll and github pages.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 27 Feb 2018 01:14:07 +0530</pubDate>
+    <lastBuildDate>Tue, 27 Feb 2018 01:14:07 +0530</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>1111</title>
+        <description>&lt;p&gt;So we have previously seen how Davide, Alessandro and I designed the &lt;a href=&quot;https://keenlearner.wordpress.com/2016/07/25/weve-come-a-long-way-from-where-we-began/&quot;&gt;Rating Engine&lt;/a&gt; for our  &lt;strong&gt;&lt;a href=&quot;https://github.com/WikiToLearn/WikiRating&quot;&gt;WikiRating:Google Summer of Code&lt;/a&gt;&lt;/strong&gt;project. Now this is the time for our last step , that is to connect the engine to the Website for displaying the computed results and for providing voting functionality to WikiToLearn users. In MediaWiki additional functionalities like this are added via &lt;a href=&quot;https://www.mediawiki.org/wiki/Manual:Extensions&quot;&gt;extensions&lt;/a&gt;. You can think of extensions in the literal sense too as something that provides some extension points on the top of the current code base. This make the life of developers easier since by using extensions we can add new code in a modular fashion and thereby not much fiddling with the Wiki code base. So now I needed to write an extension that can the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fetch the information about the page being viewed by the user.&lt;/li&gt;
+  &lt;li&gt;Allowing the user to vote for the page.&lt;/li&gt;
+  &lt;li&gt;Displaying additional information about the page is user demands.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So with the following things in mind I began to analyse the basic components of a MediaWiki Extension. &lt;img src=&quot;https://keenlearner.files.wordpress.com/2016/08/extension_components1.png&quot; alt=&quot;extension_components&quot; /&gt; So besides the &lt;a href=&quot;https://www.mediawiki.org/wiki/Manual:Developing_extensions&quot;&gt;boiler plate&lt;/a&gt; components that required minor tweaking &lt;strong&gt;extension.json , modules , specials &lt;/strong&gt;are of our interest.&lt;/p&gt;
+
+&lt;h1 id=&quot;extensionjson&quot;&gt;extension.json&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://keenlearner.files.wordpress.com/2016/08/extension_json.png&quot; alt=&quot;extension_JSON&quot; /&gt; This JSON file stores the setup instructions for instance name of the extension, the author, what all classes to load etc.&lt;/p&gt;
+
+&lt;h1 id=&quot;modules&quot;&gt;modules&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://keenlearner.files.wordpress.com/2016/08/module_pic.png&quot; alt=&quot;module_pic&quot; /&gt; The module folder of our &lt;a href=&quot;https://github.com/WikiToLearn/WikiRatingExtension&quot;&gt;WikiRating Extension&lt;/a&gt; contains these 2 components:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;resources&lt;/strong&gt;: where all the images and other resources are stored.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;wikiRating.js&lt;/strong&gt;: A java script file to fetch, send and display data between the engine and the Website instance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is the wikiRating.js script where we wrote most of our code.&lt;/p&gt;
+
+&lt;h1 id=&quot;specials&quot;&gt;specials&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://keenlearner.files.wordpress.com/2016/08/specials.png&quot; alt=&quot;specials&quot; /&gt; This folder contains a php script whose function is display additional information about the page when asked for. The information will be passed to the script via the URL parameter by our master script (&lt;strong&gt;wikiRating.js&lt;/strong&gt;). So the final step(or first step !) is to enable our extension by adding this to &lt;a href=&quot;https://www.mediawiki.org/wiki/Manual:LocalSettings.php&quot;&gt;LocalSettings.php&lt;/a&gt; file in the WikiToLearn local instance. &lt;code class=&quot;highlighter-rouge&quot;&gt;wfLoadExtension( 'WikiRating' );&lt;/code&gt; So now it is the time to see the fruits of our labour: [caption id=”attachment_1126” align=”alignnone” width=”1353”]&lt;img src=&quot;https://keenlearner.files.wordpress.com/2016/08/score11.png&quot; alt=&quot;score1&quot; /&gt; Basic information about the page[/caption] [caption id=”attachment_1127” align=”alignnone” width=”1353”]&lt;img src=&quot;https://keenlearner.files.wordpress.com/2016/08/score2.png&quot; alt=&quot;score2&quot; /&gt; Additional information about the page[/caption] So this is how the output of our engine looks , subtle like a &lt;strong&gt;tip of an iceberg&lt;/strong&gt; :P&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 Jan 2015 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/life/2015/01/08/first-blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2015/01/08/first-blog.html</guid>
+        
+        <category>blog</category>
+        
+        
+        <category>Life</category>
+        
+      </item>
+    
+  </channel>
+</rss>
