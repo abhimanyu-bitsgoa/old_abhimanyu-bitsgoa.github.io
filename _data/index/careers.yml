@@ -1,60 +1,57 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Google Summer of Code(KDE)
-    i18n: .
+    detail: Nextcode
+    i18n: nextcode
   desc:
-    detail: Designed a rating engine for wiki style learning platform (WikiToLearn)
-    i18n: .
+    detail: Now I am in Nextcode and develop website with Python code for genetic analysis.
+    i18n: nextcode_des
   date:
     detail: Apr. 2016
-    i18n: .
+    i18n: nextcode_date
   job:
-    detail: Contract Developer
-    i18n: .
-  icon: fa-google
+    detail: Python Developer
+    i18n: nextcode_job
+  icon: fa-plus-square
 
 - name:
-    detail: PayPal
-    i18n: .
+    detail: Netease Game
+    i18n: netease
   desc:
-    detail: Designing innovative solutions to modern day transaction problems.
-    i18n: .
+    detail: In Netease game, I learned game service system and use Python code for ops.
+    i18n: netease_des
   date:
-    detail: Jan. 2018
-    i18n: .
+    detail: Jun. 2015
+    i18n: netease_date
   job:
-    detail: Software Engineering Intern
-    i18n: .
-  icon: fa-paypal
+    detail: Dev Ops
+    i18n: netease_job
+  icon: fa-gamepad
 
 - name:
-    detail: Zeolearn
-    i18n: ...
+    detail: Ucloud
+    i18n: ucloud
   desc:
-    detail: Designing technical content for the company's online magazine (Zeomag).
-    i18n: .
+    detail: In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.
+    i18n: ucloud_des
   date:
-    detail: Feb. 2018
-    i18n: .
+    detail: Sep. 2013
+    i18n: ucloud_date
   job:
-    detail: Technical Content Writer
-    i18n: .
-  icon:  fa-book
+    detail: Dev Ops
+    i18n: ucloud_job
+  icon: fa-cloud
 
 - name:
     detail: Graduation
-    i18n: .
+    i18n: college
   desc:
-    detail: At June 2018,I graduated from BITS Pilani with B.E(Hons)Computer Science and Minor in English Studies.
-    i18n: .
+    detail: At July 2013,I graduated from college and started my IT technology tour.
+    i18n: college_des
   date:
-    detail: Jun. 2018
-    i18n: .
+    detail: Jul. 2013
+    i18n: college_date
   job:
     detail: Student
-    i18n: .
-  icon:  fa-university
-
-
-# https://fontawesome.com/v4.7.0/icons/ Use this to get more icons
+    i18n: college_job
+  icon: fa-book
