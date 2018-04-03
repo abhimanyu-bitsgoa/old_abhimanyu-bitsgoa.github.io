@@ -30,7 +30,7 @@
 
 - name:
     detail: Zeolearn
-    i18n: .
+    i18n: ...
   desc:
     detail: Designing technical content for the company's online magazine (Zeomag).
     i18n: .
