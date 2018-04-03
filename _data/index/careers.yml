@@ -1,57 +1,60 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Nextcode
-    i18n: nextcode
+    detail: Google Summer of Code(KDE)
+    i18n: .
   desc:
-    detail: Now I am in Nextcode and develop website with Python code for genetic analysis.
-    i18n: nextcode_des
+    detail: Designed a rating engine for wiki style learning platform (WikiToLearn)
+    i18n: .
   date:
     detail: Apr. 2016
-    i18n: nextcode_date
+    i18n: .
   job:
-    detail: Python Developer
-    i18n: nextcode_job
-  icon: fa-plus-square
+    detail: Contract Developer
+    i18n: .
+  icon: fa-google
 
 - name:
-    detail: Netease Game
-    i18n: netease
+    detail: PayPal
+    i18n: .
   desc:
-    detail: In Netease game, I learned game service system and use Python code for ops.
-    i18n: netease_des
+    detail: Designing innovative solutions to modern day transaction problems.
+    i18n: .
   date:
-    detail: Jun. 2015
-    i18n: netease_date
+    detail: Jan. 2018
+    i18n: .
   job:
-    detail: Dev Ops
-    i18n: netease_job
-  icon: fa-gamepad
+    detail: Software Engineering Intern
+    i18n: .
+  icon: fa-paypal
 
 - name:
-    detail: Ucloud
-    i18n: ucloud
+    detail: Zeolearn
+    i18n: .
   desc:
-    detail: In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.
-    i18n: ucloud_des
+    detail: Designing technical content for the company's online magazine (Zeomag).
+    i18n: .
   date:
-    detail: Sep. 2013
-    i18n: ucloud_date
+    detail: Feb. 2018
+    i18n: .
   job:
-    detail: Dev Ops
-    i18n: ucloud_job
-  icon: fa-cloud
+    detail: Technical Content Writer
+    i18n: .
+  icon:  fa-book
 
 - name:
     detail: Graduation
-    i18n: college
+    i18n: .
   desc:
-    detail: At July 2013,I graduated from college and started my IT technology tour.
-    i18n: college_des
+    detail: At June 2018,I graduated from BITS Pilani with B.E(Hons)Computer Science and Minor in English Studies.
+    i18n: .
   date:
-    detail: Jul. 2013
-    i18n: college_date
+    detail: Jun. 2018
+    i18n: .
   job:
     detail: Student
-    i18n: college_job
-  icon: fa-book
+    i18n: .
+  icon:  fa-university
+
+
+# https://fontawesome.com/v4.7.0/icons/ Use this to get more icons

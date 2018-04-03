@@ -2,5 +2,5 @@
 
 label: Ability
 id: cs
-aspects: Data Structures & Algorithms, C/C++, Java, Android, Python, SQL, NoSQL, Docker,Javascript
-percentage: 80, 70,80,60,50,60,40,30,30
+aspects: Data Structures & Algorithms, C/C++, Java, Android, Python, SQL, NoSQL, Docker,Javascript, RaspberryPi
+percentage: 80, 70,80,60,50,60,40,30,30,90
