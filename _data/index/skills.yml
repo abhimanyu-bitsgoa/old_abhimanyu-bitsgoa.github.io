@@ -2,10 +2,5 @@
 
 label: Ability
 id: cs
-<<<<<<< HEAD
 aspects: Data Structures & Algorithms, C/C++, Java, Android, Python, SQL, NoSQL, Docker,Javascript, RaspberryPi
 percentage: 80, 70,80,60,50,60,40,30,30,90
-=======
-aspects: Linux/Shell, Python, HTML/CSS, jQuery, AngularJS, Ionic, Vuejs, MongoDB, MySQL, Elasticsearch, Docker
-percentage: 80, 90, 70, 85, 80, 70, 75, 75, 80, 70, 75
->>>>>>> parent of 2f0a7a4... Added a lot of changes
